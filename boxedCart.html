@@ -7,9 +7,9 @@
     <!-- Include EmailJS SDK here, preferably before any custom scripts that use it -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
-        // Initialize EmailJS
+        // Initialize EmailJS (often recommended to do this once)
         (function() {
-            emailjs.init("rWMVfQhp4_IEVbHC7");
+            emailjs.init("rWMVfQhp4_IEVbHC7"); // Replace with your actual User ID
         })();
     </script>
     <style>
@@ -258,6 +258,10 @@
 </head>
 <body>
     <header class = "cartHeader">
+
+
+        
+        
         <h1>Shopping Cart and Payment</h1>
         <nav>
             <a href="index.html">Home</a>
@@ -277,7 +281,7 @@
         <div class="testimony-section">
             <h2>PLEASE SEND PROOF OF PAYMENT AS SHOWN BELOW</h2>
             <div class="testimony-content">
-                <img src="boxedProducts/testimony.jpg" alt="Customer Testimonial" class="testimony-image">
+                <img src="testimony.jpg" alt="Customer Testimonial" class="testimony-image">
             </div>
         </div>
         <section id="payment-container" style="display: none;">
@@ -312,8 +316,8 @@
         </section>
         <div class="contact-links">
             <a href="https://www.instagram.com/boxed.sneaks_za/#" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://wa.me/+27627313071" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            <a href="mailto:ppessiekatlego88@gmail.com">Email Us</a>
+            <a href="https://wa.me/+27650947689" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="mailto:ppesiekatlego88@gmail.com" target = "_blank"> Email Us</a>
         </div>
 
         <div class="security-info">
@@ -325,7 +329,7 @@
             <h3>Terms and Conditions</h3>
             <p>By proceeding with the payment, you agree to our terms and conditions. Please make sure you understand our return policy, payment terms, and privacy policy. For any questions, feel free to contact us.</p>
         </div>
-        <button id="alert-button">Paid? Click ME</button>
+        <button id="alert-button">Paid??Click ME</button>
     </main>
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', () => {
@@ -423,6 +427,4 @@
         });
     </script>
 </body>
-
 </html>
-
